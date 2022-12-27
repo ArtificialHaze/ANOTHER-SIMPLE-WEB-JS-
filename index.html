@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"
+      integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    /> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css"
+      integrity="sha512-okkLcBJE+U19Dpd0QdHA1wn4YY6rW3CwaxeLJT3Jmj9ZcNSbln/VYw8UdqXRIwLX7J8PmtHs0I/FPAhozFvXKg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="#" class="nav__logo"><h3>IAMALOGO</h3></a>
+        <ul id="nav__items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#specialists">Specialists</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment" class="btn">Make Appointment</a></li>
+        </ul>
+        <button id="open__nav-btn">
+          <i class="bx bx-menu"></i>
+        </button>
+        <button id="close__nav-btn">
+          <i class="bx bx-x"></i>
+        </button>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="header__content">
+          <h1>Complete health care solutions</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            consequatur, ea facilis ex iure quod nobis, dolor amet odit ullam
+            sit minima veritatis dolores ab.
+          </p>
+          <a href="#appointment" class="btn">Make Appointment</a>
+        </div>
+        <div class="header__image">
+          <img src="./header.svg" alt="headerImage" />
+        </div>
+      </div>
+    </header>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nulla
+        cumque, rem animi quod reiciendis ea vero facere eaque possimus quidem
+        eum ab eius saepe delectus ipsam tenetur dignissimos veniam?
+      </p>
+      <div class="container">
+        <article>
+          <i class="bx bx-book-content"></i>
+          <div>
+            <h4>Online booking</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-trophy"></i>
+          <div>
+            <h4>Online booking</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-support"></i>
+          <div>
+            <h4>Support</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-donate-heart"></i>
+          <div>
+            <h4>Donate</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-first-aid"></i>
+          <div>
+            <h4>Need Emergency</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bxl-meta"></i>
+          <div>
+            <h4>24/7 Service</h4>
+            <small
+              >Lorem ipsum dolor sit amet onsectetur adipisicing elit. Alias
+              tempore inventore sed accusamus soluta! Rerum.</small
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="specialists">
+      <h2>Our top specialists</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+        incidunt!
+      </p>
+      <div class="container">
+        <article>
+          <div class="specialist__image">
+            <img src="./specialist1.jpg" alt="SPECIALIST" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Michael Jordan</h4>
+            <small>Surgery</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+3333"
+            class="specialist__whatsapp"
+          >
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./specialist2.jpg" alt="SPECIALIST" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Michael Bubble</h4>
+            <small>Surgery</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+3333"
+            class="specialist__whatsapp"
+          >
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./specialist3.jpg" alt="SPECIALIST" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Ann Polisher</h4>
+            <small>Cardiology</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+3333"
+            class="specialist__whatsapp"
+          >
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./specialist4.jpg" alt="SPECIALIST" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Philip de Franko</h4>
+            <small>Doctor</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+3333"
+            class="specialist__whatsapp"
+          >
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+    <section id="testimonials" class="swiper mySwiper">
+      <h2>What our patients say</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+        deserunt, tempora laboriosam omnis a unde nisi neque pariatur rerum
+        consequuntur!
+      </p>
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+            repellendus.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./avatar1.jpg" alt="AVATAR" />
+            </div>
+            <div class="patient__details">
+              <h5>Jonathan McNasty</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+            repellendus. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Odio sequi quo dolor.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./avatar2.jpg" alt="AVATAR" />
+            </div>
+            <div class="patient__details">
+              <h5>John Coy</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+            repellendus. Lorem ipsum dolor sit amet.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./avatar3.jpg" alt="AVATAR" />
+            </div>
+            <div class="patient__details">
+              <h5>Lets Go</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+            repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Sint atque nemo nostrum!
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./avatar4.jpg" alt="AVATAR" />
+            </div>
+            <div class="patient__details">
+              <h5>Once Filder</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+            repellendus. Lorem, ipsum dolor.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./avatar5.jpg" alt="AVATAR" />
+            </div>
+            <div class="patient__details">
+              <h5>Just Smith</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <section id="appointment">
+      <div class="container">
+        <div class="info">
+          <h2>Get an appointment</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            molestiae iusto dolor provident, et expedita facere quasi non nihil
+            est.
+          </p>
+          <article>
+            <div class="info__icon">
+              <i class="bx bx-user"></i>
+            </div>
+            <div>
+              <h4>Experience Doctors</h4>
+              <small
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                sunt est nobis deserunt! Optio, consequuntur.</small
+              >
+            </div>
+          </article>
+          <article>
+            <div class="info__icon">
+              <i class="bx bx-reflect-horizontal"></i>
+            </div>
+            <div>
+              <h4>Advanced Technology</h4>
+              <small
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                sunt est nobis.</small
+              >
+            </div>
+          </article>
+          <article>
+            <div class="info__icon">
+              <i class="bx bx-first-aid"></i>
+            </div>
+            <div>
+              <h4>Emergency Care</h4>
+              <small
+                >Sit amet consectetur adipisicing elit. Neque sunt est nobis
+                deserunt! Optio, consequuntur.</small
+              >
+            </div>
+          </article>
+        </div>
+        <form method="post" action="https://formspree.io/f/">
+          <div class="form__group">
+            <label for="name">name</label>
+            <input
+              type="text"
+              placeholder="Type here.."
+              id="name"
+              name="Patient name"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="phone">phone</label>
+            <input
+              type="number"
+              placeholder="Here.."
+              id="phone"
+              name="Patient phone number"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="date">date</label>
+            <input
+              type="date"
+              placeholder="Choose date.."
+              id="date"
+              name="Date"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="department">Select department</label>
+            <select name="Department" id="department">
+              <option value="department one">Department one</option>
+              <option value="department two">Department two</option>
+              <option value="department three">Department three</option>
+              <option value="department four">Department four</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="doctor">Select Doctor</label>
+            <select name="Doctor" id="doctor">
+              <option value="doctor one">Doctor one</option>
+              <option value="doctor two">Doctor two</option>
+              <option value="doctor three">Doctor three</option>
+              <option value="doctor four">Doctor four</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea
+              name="Message"
+              id="message"
+              rows="6"
+              required
+              placeholder="Add a Message.."
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit request" class="btn-primary" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <article>
+          <a href="#" class="footer__logo"><h3>IAMALOGO</h3></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem unde magni, ipsum facilis est ut.
+          </p>
+          <div>
+            <i class="bx bxs-phone"></i>
+            <small>+955555555555</small>
+          </div>
+          <div>
+            <i class="bx bx-mail-send"></i>
+            <small>support@iamalogo.com</small>
+          </div>
+        </article>
+        <article>
+          <h3>Support</h3>
+          <a href="#">Privacy Policy</a><a href="#">Cookie Policy</a
+          ><a href="#">Purchasing Policy</a><a href="#">Terms and Conditions</a
+          ><a href="#">Career</a>
+        </article>
+        <article>
+          <h3>Links</h3>
+          <a href="#">Home</a><a href="#services">Services</a
+          ><a href="#specialists">Specialists</a
+          ><a href="#testimonials">Testimonials</a
+          ><a href="#appointment" class="btn-primary">Get an appointment</a>
+        </article>
+        <article>
+          <h3>Contact us</h3>
+          <p>Press</p>
+          <p>F.A.Q.</p>
+          <div class="footer__socials">
+            <a href="#"> <i class="bx bxl-linkedin"></i></a>
+            <a href="#"> <i class="bx bxl-twitter"></i></a>
+            <a href="#"> <i class="bx bxl-facebook"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="copyright">
+        <small>IAMALOGO &copy; All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"
+    integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script defer src="./index.js"></script>
+</html>

@@ -1,0 +1,74 @@
+body {
+  font-family: monospace, sans-serif;
+  line-height: 1.5;
+  color: $dark-color;
+  background: rgba($second-primary-color, 0.1);
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+label {
+  text-transform: capitalize;
+}
+
+.container {
+  width: $container-lg;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+section {
+  margin-top: 6rem;
+
+  & > h2 {
+    text-align: center;
+  }
+
+  & > p {
+    text-align: center;
+    width: 42%;
+    margin: 0.6rem auto 2.5rem;
+  }
+}
+
+.btn {
+  @include button();
+}
+
+.btn-primary {
+  @include button($white-color, $primary-color);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: $container-md;
+  }
+
+  section {
+    & > p {
+      width: 55%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    & > p {
+      width: $container-md;
+    }
+  }
+}
